@@ -1,0 +1,362 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+#background {
+	background-color: black;
+	height: calc(1700px + (1600 - 1700) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+}
+
+/*nawigacja*/
+
+#nav-bar {
+	padding: 30px;
+}
+
+#home {
+	width: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300)));
+	height: 100%;
+	transform: rotate(-20deg);
+	margin-left: calc(10px + (50 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: 10px;
+}
+
+#about {
+	float: right;
+	text-transform: uppercase;
+	font-family: Anton;
+	font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+	color: white;
+	margin-right: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+	}
+
+#about:hover{
+	text-decoration: none;
+	}
+
+.line {
+	height: 3px;
+	background-color: white;
+	margin-top: calc(160px + (120 - 160) * ((100vw - 300px) / (1600 - 300)));;
+	position: relative;
+}
+
+.dots {
+	height: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	width: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	border-radius: 100%;
+	z-index: 1;
+	position: absolute;
+	margin-left: calc(140px + (1200 - 140) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-10px + (-20 - -10) * ((100vw - 300px) / (1600 - 300)));
+	background-color: red;
+}
+
+.brands {
+	position: absolute;
+	margin-top: calc(-60px + (-100 - -60) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(115px + (1160 - 115) * ((100vw - 300px) / (1600 - 300)));
+	height: calc(25px + (45 - 25) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Anton;
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+#shoemaker {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#brands-img {
+	width:calc(500px + (690 - 500) * ((100vw - 300px) / (1600 - 300)));
+	height: 100%;
+}
+
+#line {
+	height: calc(100px + (170 - 100) * ((100vw - 300px) / (1600 - 300)));
+	width: 1px;
+	margin-top: calc(-50px + (-90 - -50) * ((100vw - 300px) / (1600 - 300)));
+	background-color: white;
+	position: absolute;
+	display: inline-block;
+	}
+
+#line-container {
+	text-align: center;
+}
+
+.scroll {
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Anton;
+	font-size: 20px;
+	margin: 20px 0 0 100px;
+	transition: .5s;
+}
+
+#header-container {
+	color: white;
+	font-family: Anton;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+	transition: .5s;
+
+}
+
+#header1 {
+	margin-top: calc(300px + (130 - 300) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+.paragraph-text {
+	color: white;
+	position: relative;
+	font-size: 	calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Montserrat;
+
+}
+
+.paragraph-text:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#first-paragraph, #second-paragraph {
+	width: 500px;
+	padding: 50px;
+}
+
+#paragraphs {
+	display: flex;
+	justify-content: center;
+	margin: 3% auto 10% auto;
+	width: 70%;
+}
+
+#first-img {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+#orange {
+	width: 50%;
+	height: 30px;
+	background-color: #D35023;
+
+}
+
+#blue {
+	width: 50%;
+	height: 30px;
+	background-color: #203567;
+}
+
+#ob-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#color-name-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.color-name {
+	margin: 0 20px 0 20px;
+	font-family: Montserrat;
+}
+
+#logo-oldar {
+	width: calc(150px + (300 - 150) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+	display: block;
+	margin: 30% auto 30% auto;
+}
+
+.photos {
+	width: 70%;
+	display: block;
+	margin: 10% auto 10% auto;
+}
+
+#next-background {
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	padding-top: 100px;
+	padding-bottom:;
+}
+
+#next-dot {
+	margin-left: calc(150px + (400 - 150) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#next-brands {
+	margin-left: calc(60px + (260 - 60) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+#leaflets {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+
+}
+
+#ulotka {
+	width: 100%;
+}
+
+
+.card {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+#main {
+	font-family: Anton;
+	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+ 	-webkit-text-stroke-width: calc(1px + (2 - 1) * ((100vw - 300px) / (1600 - 300)));
+	-webkit-text-stroke-color: #7fbc0a;
+}
+
+.simen {
+	width: calc(300px + (600 - 300) * ((100vw - 300px) / (1600 - 300)));
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: calc(40px + (300 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#next-background2 {
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	padding-top: 100px;
+	padding-bottom:200px;
+}
+
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	text-align: center;
+	padding:30px;
+}
+
+
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.mobile {
+	display: none;
+}
+
+
+
+@media (max-width: 900px) {
+	.photos {
+		width: 100%;
+	}
+
+	footer {
+	height: 100px;
+	}
+
+
+}
+
+@media (max-width: 400px) {
+	#brands-img {
+		width: 100%;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	#next-background {
+		padding-top: 2px;
+		padding-bottom: 30px;
+	}
+
+	.line {
+		margin-top:100px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	#paragraphs {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+	#first-paragraph, #second-paragraph {
+	padding: 10px;
+	width: 300px;
+}
+
+	#background {
+	height: 1300px;
+	}
+
+	#first-img {
+	width: 100%;
+}
+
+	#header1 {
+	margin-top: 130px;
+}
+
+#leaflets {
+	flex-wrap: wrap;
+	margin-top: 0;
+}
+
+.card {
+	width: 100%;
+	margin-top: 50px;
+}
+
+	.simen {
+	width: 100%;
+	margin-top: 40px;
+}
+
+}

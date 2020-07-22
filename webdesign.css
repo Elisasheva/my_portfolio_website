@@ -1,0 +1,346 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+#background {
+	background-color: black;
+	position: relative;
+}
+
+/*nav*/
+
+#nav-bar {
+	padding: 30px;
+}
+
+#home {
+	width: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300)));
+	height: 100%;
+	transform: rotate(-20deg);
+	margin-left: calc(10px + (50 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: 10px;
+}
+
+#about {
+	float: right;
+	text-transform: uppercase;
+	font-family: Anton;
+	font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+	color: white;
+	margin-right: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+	}
+
+#about:hover{
+	text-decoration: none;
+	}
+/*nav*/
+
+/*front*/
+#first-line {
+	height: 3px;
+	background-color: white;
+	margin-top: calc(160px + (120 - 160) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+}
+
+#dot {
+	height: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	width: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	border-radius: 100%;
+	background-color: yellow;
+	z-index: 1;
+	position: absolute;
+	margin-left: calc(100px + (490 - 100) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-7px + (-20 - -7) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#web {
+	position: absolute;
+	margin-left: calc(35px + (400 - 35) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-60px + (-100 - -60) * ((100vw - 300px) / (1600 - 300)));
+	height: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Anton;
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+#shoemaker {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#shoemaker-img {
+	width: 1000px;
+	height: 100%;
+}
+
+#line {
+	height: calc(100px + (170 - 100) * ((100vw - 300px) / (1600 - 300)));
+	width: 1px;
+	margin-top: calc(-50px + (-90 - -50) * ((100vw - 300px) / (1600 - 300)));
+	background-color: white;
+	position: absolute;
+	display: inline-block;
+}
+#line-container {
+	text-align: center;
+}
+
+.scroll {
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Anton;
+	font-size: 20px;
+	margin: 20px 0 0 100px;
+	transition: .5s;
+}
+/*front*/
+
+/*first project*/
+#header-container {
+	color: white;
+	font-family: Anton;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+	transition: .5s;
+	width: 70%;
+	margin: 0 auto 0 auto;
+}
+
+#header1 {
+	margin-top: 130px;
+}
+
+/*paragraphs*/
+#paragraphs {
+	display: flex;
+	justify-content: center;
+	margin: 3% auto 10% auto;
+	width: 70%;
+}
+
+#first-paragraph, #second-paragraph {
+	width: 500px;
+	padding: 50px;
+}
+
+.paragraph-text {
+	color: white;
+	position: relative;
+	font-size: 	calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Montserrat;
+}
+
+.paragraph-text:hover {
+	text-decoration: none;
+	color: white;
+}
+/*paragraphs*/
+
+.mockup {
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+/*second project*/
+#next-background {
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	padding-top: 100px;
+}
+
+.line {
+	height: 3px;
+	background-color: white;
+	margin-top: calc(160px + (120 - 160) * ((100vw - 300px) / (1600 - 300)));;
+	position: relative;
+}
+
+.dots {
+	height: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	width: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	border-radius: 100%;
+	z-index: 1;
+	position: absolute;
+	margin-left: calc(140px + (1200 - 140) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-10px + (-20 - -10) * ((100vw - 300px) / (1600 - 300)));
+	background-color: red;
+}
+
+.brands {
+	position: absolute;
+	margin-top: calc(-60px + (-100 - -60) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(115px + (1160 - 115) * ((100vw - 300px) / (1600 - 300)));
+	height: calc(25px + (45 - 25) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Anton;
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+}
+
+#next-dot {
+	margin-left: calc(150px + (400 - 150) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#next-project {
+	margin-left: calc(60px + (260 - 60) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+#header2 {
+	margin-top:100px;
+}
+
+#app-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#gif {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logopub {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10%;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	text-align: center;
+	padding:30px;
+}
+
+#main {
+	font-family: Anton;
+	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+ 	-webkit-text-stroke-width: calc(1px + (2 - 1) * ((100vw - 300px) / (1600 - 300)));
+	-webkit-text-stroke-color: #7fbc0a;
+}
+
+
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.mobile {
+	display:none;
+}
+
+@media (max-width: 1020px) {
+	#shoemaker-img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 900px) {
+	#web {
+		letter-spacing: 1px;
+	}
+
+	#first-paragraph, #second-paragraph {
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+	footer {
+		height: 100px;
+	}
+}
+
+@media (max-width: 400px) {
+	.mobile {
+		display: block;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mockup {
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	#paragraphs {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+	#second-paragraph {
+		margin-bottom: 50px;
+	}
+
+	#first-paragraph, #second-paragraph {
+		padding: 0;
+	}
+
+	#shoemaker-img {
+		width: 100%;
+	}
+
+	#first-line {
+		margin-top: 100px;
+	}
+
+	#header-container {
+		margin-top: 230px;
+	}
+
+	#header2{
+		margin-top:-100px;
+	}
+
+	#next-background {
+		padding-top:30px;
+	}
+
+	#logopub {
+		width: 100px;
+		margin-top: 100px;
+		margin-bottom: 70px;
+	}
+
+	#gif {
+		width:100%;
+	}
+
+
+	
+}

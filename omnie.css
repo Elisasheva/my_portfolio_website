@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+#background {
+	background-color: black;
+	height: 1500px;
+}
+
+/*nawigacja*/
+
+#nav-bar {
+	padding: 30px;
+}
+
+#home {
+	width: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300)));
+	height: 100%;
+	transform: rotate(-20deg);
+	margin-left: calc(10px + (50 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: 10px;
+}
+
+#about {
+	float: right;
+	text-transform: uppercase;
+	font-family: Anton;
+	font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+	color: white;
+	margin-right: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+	}
+
+#about:hover{
+	text-decoration: none;
+	}
+  
+ /*przywitanie*/
+
+.hello {
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Anton;
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+#graphic {
+	margin-left: 300px;
+}
+
+#front {
+	margin-left: 500px;
+}
+
+#name {
+	margin-top: 70px;
+	margin-left: calc(20px + (500 - 20) * ((100vw - 300px) / (1600 - 300)));
+	margin-right: calc(40px + (700 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(10px + (60 - 25) * ((100vw - 300px) / (1600 - 300)));
+	color: #7fbc0a;
+	font-family: Anton;
+	text-transform: uppercase;
+}
+
+#first__line {
+	margin-top: 5%;
+	transition: .9s;
+}
+
+.line {
+	height: 3px;
+	background-color: white;
+	margin-top: 10%;
+}
+
+.introduction {
+	color: white;
+	font-family: Montserrat light;
+	font-size: calc(10px + (15 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(30px + (350 - 30) * ((100vw - 300px) / (1600 - 300)));
+	margin-right: calc(30px + (350 - 30) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(40px + (350 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+#getintouch {
+	margin-top: 40px;
+	color: white;
+	font-family: Anton;
+	text-transform: uppercase;
+	font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#mail {
+	margin-top: 40px;
+}
+
+footer {
+		color: #828282;
+	padding: 60px 0px 20px 20px;
+	font-family: Lato;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	#name {
+		font-size: 60px;
+}
+
+
+	#graphic {
+		margin-left: 150px;
+}
+
+	#front {
+		margin-left: 300px;
+}
+
+	.introduction {
+		font-size: 14px;
+	}
+
+	#getintouch {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 450px) {
+
+	#name {
+		margin-top: 40px;
+	}
+
+
+	#graphic {
+		margin-left: 40px;
+	}
+
+	#front {
+		margin-left: 40px;
+		margin-bottom: 200px;
+	}
+}

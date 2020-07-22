@@ -1,0 +1,361 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+#background {
+	background-color: black;
+	position: relative;
+	background-size: cover;
+}
+
+/*nawigacja*/
+
+#nav-bar {
+	padding: 30px;
+}
+
+#home {
+	width: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300)));
+	height: 100%;
+	transform: rotate(-20deg);
+	margin-left: calc(10px + (50 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: 10px;
+}
+
+#about {
+	float: right;
+	text-transform: uppercase;
+	font-family: Anton;
+	font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+	color: white;
+	margin-right: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+	}
+
+#about:hover{
+	text-decoration: none;
+	}
+
+#first-line {
+	height: 3px;
+	background-color: white;
+	margin-top: calc(160px + (120 - 160) * ((100vw - 300px) / (1600 - 300)));;
+	position: relative;
+}
+
+#dot {
+	height: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	width: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	border-radius: 100%;
+	background-color: blue;
+	z-index: 1;
+	position: absolute;
+	margin-left: calc(100px + (490 - 100) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-7px + (-20 - -7) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#illu {
+	position: absolute;
+	margin-left: calc(35px + (400 - 35) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-65px + (-100 - -65) * ((100vw - 300px) / (1600 - 300)));
+	height: calc(30px + (40 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(35px + (50 - 35) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Anton;
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/*scroll line*/
+
+#line {
+	height: calc(100px + (128 - 100) * ((100vw - 300px) / (1600 - 300)));
+	width: 1px;
+	margin-top: calc(202px + (350 - 202) * ((100vw - 300px) / (1600 - 300)));
+	background-color: white;
+	display: inline-block;
+}
+
+#line-container, #line-container2 {
+	text-align: center;
+}
+
+#line2 {
+	height: calc(100px + (190 - 100) * ((100vw - 300px) / (1600 - 300)));
+	width: 1px;
+	background-color: black;
+	display: inline-block;
+	margin-top: -2px;
+}
+
+/*scroll*/
+
+.scroll {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Anton;
+	font-size: 20px;
+	margin-top: calc(-80px + (-120 - -80) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: 100px;
+	transition: .3s;
+}
+
+/*illustrations*/
+
+#title1 {
+	margin-top: 300px;
+	margin-bottom:-100px;
+	font-family: Montserrat;
+	font-size: 30px;
+	text-align: center;
+}
+
+#title2 {
+	margin-top: 300px;
+	margin-bottom: 100px;
+	font-family: Montserrat;
+	font-size: 30px;
+	text-align: center;
+}
+
+.illu {
+	width: 60%;
+	height: 100%
+}
+
+.illu4 {
+	width: 40%;
+	height: 100%
+}
+
+#illu2-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#margin-illu {
+	margin-top: 5%;
+}
+
+#picture1-line {
+	width: 1px;
+	height: calc(70px + (350 - 70) * ((100vw - 300px) / (1600 - 300)));
+	background-color: black;
+	margin-left: calc(200px + (1000 - 200) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(10px + (60 - 10) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+
+}
+
+#description {
+	margin-right: calc(0px + (180 - 0) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(200px + (1050 - 200) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(40px + (150 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Montserrat light;
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+}
+
+#illu1-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-top: 300px;
+}
+
+#illu2-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#illu3-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#illu4-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#illu5-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#picture2-line {
+	width: 1px;
+	height: calc(70px + (350 - 70) * ((100vw - 300px) / (1600 - 300)));
+	background-color: black;
+	margin-top: calc(30px + (190 - 30) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(200px + (1000 - 200) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;}
+
+#description2 {
+	font-family: Montserrat light;
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(80px + (350 - 80) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(200px + (1050 - 200) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+}
+
+#description4 {
+	font-family: Montserrat light;
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(80px + (350 - 80) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(200px + (750 - 200) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+}
+
+#description5 {
+	font-family: Montserrat light;
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(30px + (300 - 30) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(200px + (750 - 200) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+}
+
+#picture4-line {
+	width: 1px;
+	height: calc(70px + (350 - 70) * ((100vw - 300px) / (1600 - 300)));
+	background-color: black;
+	margin-top: calc(30px + (150 - 30) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(200px + (700 - 200) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+}
+
+#wykon {
+	font-size: 15px;
+	color:grey;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	text-align: center;
+	padding:30px;
+}
+
+#main {
+	font-family: Anton;
+	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+ 	-webkit-text-stroke-width: calc(1px + (2 - 1) * ((100vw - 300px) / (1600 - 300)));
+	-webkit-text-stroke-color: #7fbc0a;
+}
+
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+#description-mobile, #description2-mobile {
+	display: none;
+}
+
+	@media (max-width: 900px) {
+
+		.illu {
+			width: 74%;
+			display: block;
+			margin-left:auto;
+			margin-right: auto;
+			margin-top: 20px;
+			}
+		.illu4{
+			width:70%;
+			display: block;
+			margin-left:auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}
+
+			#line {
+				margin-top: 400px;
+			}
+
+		#picture1-line, #picture2-line, #picture4-line {
+			display: none;
+		}
+
+		#illu1-container {
+			margin-top: 140px;
+
+		}
+
+		#description, #description2, #description4, #description5 {
+			display: none;		
+		}
+
+		#description-mobile, #description2-mobile {
+			display: block;
+			text-align: center;
+			font-size: 13px;
+			margin: 10px 50px 20px 50px;
+		}
+
+		#description2-mobile-container {
+			margin-right: 50px;
+			margin-left: 50px;
+		}
+
+			footer {
+		height: 100px;
+	}
+
+
+}
+
+	@media (max-width: 400px) {
+
+		#first-line {
+			margin-top:100px;
+		}
+
+		.illu {
+			width: 100%;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		.illu4 {
+			width: 100%;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		#description-mobile, #description2-mobile {
+			display: block;
+			text-align: center;
+			font-size: 13px;
+			margin: 10px 50px 20px 50px;
+		}
+
+		#description2-mobile-container {
+			margin-right: 50px;
+			margin-left: 50px;
+		}
+
+		#line {
+			margin-top: 100px;
+		}
+
+		#description2 {
+			display: none;
+		}
+
+}

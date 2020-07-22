@@ -1,0 +1,236 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+#background {
+	background-color: black;
+	position: relative;
+}
+
+/*nawigation*/
+
+#nav-bar {
+	padding: 30px;
+}
+
+#home {
+	width: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300)));
+	height: 100%;
+	transform: rotate(-20deg);
+	margin-left: calc(10px + (50 - 10) * ((100vw - 300px) / (1600 - 300)));
+	margin-top:10px;
+}
+
+#about {
+	float: right;
+	text-transform: uppercase;
+	font-family: Anton;
+	font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+	color: white;
+	margin-right: calc(20px + (50 - 20) * ((100vw - 300px) / (1600 - 300)));
+	}
+
+#about:hover {
+	text-decoration: none;
+	}
+
+#first-line {
+	height: 3px;
+	background-color: white;
+	margin-top: calc(160px + (120 - 160) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+}
+
+#dot {
+	height: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	width: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300)));
+	border-radius: 100%;
+	background-color: yellow;
+	z-index: 1;
+	position: absolute;
+		margin-left: calc(100px + (340 - 100) * ((100vw - 300px) / (1600 - 300)));
+	margin-top: calc(-10px + (-20 - -10) * ((100vw - 300px) / (1600 - 300)));
+	background-color: green;
+
+}
+
+#books {
+	height: calc(20px + (20 - 20) * ((100vw - 300px) / (1600 - 300)));
+	position: absolute;
+	margin-top: calc(-60px + (-110 - -60) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: calc(70px + (290 - 70) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Anton;
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+#book-cont {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#book-img {
+	width: 800px;
+	height: 100%;
+}
+
+#line {
+	height: calc(100px + (170 - 100) * ((100vw - 300px) / (1600 - 300)));
+	width: 1px;
+	margin-top: calc(-50px + (-90 - -50) * ((100vw - 300px) / (1600 - 300)));
+	background-color: white;
+	position: absolute;
+	display: inline-block;
+}
+#line-container {
+	text-align: center;
+}
+
+.scroll {
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-family: Anton;
+	font-size: 20px;
+	margin: 20px 0 0 100px;
+	transition: .5s;
+}
+
+#header-container {
+	color: white;
+	font-family: Anton;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+	position: relative;
+	transition: .5s;
+	width: 70%;
+	margin: -20px auto 0 auto;
+
+}
+
+#header1 {
+	margin-top: 190px;
+}
+
+.paragraph-text {
+	color: white;
+	position: relative;
+	font-size: 	calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Montserrat;
+
+}
+
+.paragraph-text:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#first-paragraph {
+	width: 1100px;
+	padding: 50px;
+}
+
+#paragraphs {
+	display: flex;
+	justify-content: center;
+	margin: 3% auto 10% auto;
+	width: 70%;
+}
+
+.book-img {
+	width: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10%;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	margin-top: 10%;
+	text-align: center;
+	padding:30px;
+}
+
+#main {
+	font-family: Anton;
+	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+	text-transform: uppercase;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+ 	-webkit-text-stroke-width: calc(1px + (2 - 1) * ((100vw - 300px) / (1600 - 300)));
+	-webkit-text-stroke-color: #7fbc0a;
+}
+
+.mobile {
+	display: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+@media (max-width: 1020px) {
+		#book-img {
+		width: 100%;
+		}
+}
+
+@media (max-width: 900px) {
+
+
+	#web {
+		letter-spacing: 1px;
+	}
+
+
+	#first-paragraph, #second-paragraph {
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+		footer {
+	height: 100px;
+	}
+
+
+}
+
+@media (max-width: 400px) {
+
+	.mobile {
+		display: block;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	#background {
+		padding-bottom: 20px;
+	}
+
+	.book-img {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#first-line {
+		margin-top: 100px;
+	}
+}
+

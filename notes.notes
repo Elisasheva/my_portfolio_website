@@ -13,6 +13,10 @@ git pull
 git log -> przeglądanie commitów
 git log --pretty=oneline -> jw, ale w jednej linii
 
+
+
+
+
 [markdown]
 
 # nagl 1
@@ -43,3 +47,27 @@ MARKDOWN źródła wiedzy(edytory):
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 DILLINGER
 StackEdit
+
+
+
+
+OpenGraph -> kontrola tego, jak wyświetla się nasza udostępniona strona np. na fb
+
+- dodawanie obrazka
+
+[ ] zrobić obrazek (najlepiej jakoś 1200x1200 i tekst jakoś na środku) -> 
+dodać do folderu obrazkow do strony
+wpisać w <body> w html: 
+<meta property="og:image" content="pictures/tytulobrazka.jpg">
+
+gdzie to sprawdzić?
+https://developers.facebook.com/tools/debug/
+
+Informacje o OpenGraph:
+ogp.me
+
+
+
+Ikonka strony
+
+<link rel="icon" href="ikona.png">

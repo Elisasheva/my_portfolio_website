@@ -1,0 +1,45 @@
+wtyczka live server
+file -> settings -> auto save
+
+git status
+git add . -> changes to staged changes
+git commit -m "wiadomosc" -> zakomitowanie zakomitowanie
+git reset --hard -> wszystkie zmiany zostają wycofane i wracamy do biezącego commita - jesli cos popsuje
+
+logowanie do github: Elisasheva, Redhot6666
+git push
+git pull
+
+git log -> przeglądanie commitów
+git log --pretty=oneline -> jw, ale w jednej linii
+
+[markdown]
+
+# nagl 1
+## nagl 2 poziomu
+### 3 poziomu
+**wytluszczenie**
+*kursywa*
+
+1. element
+2. elem
+
+- elem 
+- ewg
+
+[google](https://google.pl)
+
+![tree](https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/03091106/Trees-1024x682.jpg) obrazek
+
+kod `console.log`
+
+``` javascript
+let myNumber = 5;
+console.log(myNumber);
+```
+
+MARKDOWN źródła wiedzy(edytory):
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+DILLINGER
+StackEdit

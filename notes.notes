@@ -169,9 +169,3 @@ działania
 koniecznie ze spacją!
 * /
 
-
-
-        FLEX
-
-do kontenera: display:flex;
-dodając, tworzymy "flex container" i w srodku "flex-items"

@@ -1,0 +1,21 @@
+
+FLEX
+
+do kontenera przypisujemy: display: flex; 
+dodając, tworzymy "flex-container" a w srodku "flex-items"
+Po przypisaniu elementy w kontenerze ulozą się OBOK SIEBIE - zgodnie z flex layout
+domyslnie elementy są tak szerokie, by zmieścić swoją treść
+flex layout ma oś glowną i prostopadla (main i cross exes) - domyslnie os glowna to oś pozioma, ale mozna to zmienic za pomoca flex-direction
+
+.cont { - tę wlasciwosc wpisuje się w stylowaniu kontenera
+flex-direction: row;
+flex-direction: row-reverse; - ukladaja sie od prawej do lewej
+flex-direction: column; - elementy ukladają się jeden pod drugim, blokowo, os pionowa
+flex-direction: column-reverse; - elementy ukladają się od dolu do góry
+}
+
+
+
+
+
+

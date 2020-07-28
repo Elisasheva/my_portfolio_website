@@ -11,7 +11,7 @@ flex layout ma oś glowną i prostopadla (main i cross exes) - domyslnie os glow
 .cont { - tę wlasciwosc wpisuje się w STYLOWANIU KONTENERA
 flex-direction: row;
 flex-direction: row-reverse; - ukladaja sie od prawej do lewej
-flex-direction: column; - elementy ukladają się jeden pod drugim, blokowo, os pionowaaa
+flex-direction: column; - elementy ukladają się jeden pod drugim, blokowo, os pionowa
 flex-direction: column-reverse; - elementy ukladają się od dolu do góry
 
 

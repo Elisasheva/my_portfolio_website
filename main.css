@@ -213,8 +213,13 @@ footer {
 		margin: 0;
 	}
 
+	nav {
+		text-align: center;
+	}
+
 	.nav__logo {
-		width: 8vw;
+		width: 13vw;
+		margin: auto;
 	}
 
 	.header__frontend {
@@ -248,7 +253,7 @@ footer {
 	}
 
 	.line__red, .line__blue {
-		margin-top: 26vw;
+		margin-top: 35vw;
 		height: 2px;
 	}
 

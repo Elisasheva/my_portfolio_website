@@ -225,46 +225,45 @@ footer {
 	.header__frontend {
 		font-size: 6vw;
 		margin-left: 15vw;
-		margin-top: 16vw;
+		margin-top: 22vw;
 		line-height: 160%;
 	}
 
 	.header__graphic {
 		font-size: 9vw;
 		margin-left: 15vw;
-		margin-top: 0;
+		margin-top: 5vw;
 	}
 
 	.background__image {
-		margin-top: 40vw;
-		background-size: 60%;
+		margin-top: 50vw;
 	}
 
 	.name__line {
-		margin-top: 76vw;
+		margin-top: 90vw;
 		margin-left: 9%;
 		width: 0.6vw;
 	}
 
 	.header__name {
-		margin-top: 76vw;
+		margin-top: 90vw;
 		margin-left: 14%;
 		font-size: 5vw;
 	}
 
 	.line__red, .line__blue {
-		margin-top: 35vw;
+		margin-top:45vw;
 		height: 2px;
 	}
 
 	.second__menu__item {
 		margin-left: 47vw;
-		width: 120px;
+		width: 170px;
 		margin-top: -10%;
 	}
 
 	.first__menu__item, .third__menu__item, .fourth__menu__item {
-		width: 120px;
+		width: 170px;
 		margin-top: -10%;
 	}
 

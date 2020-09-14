@@ -249,6 +249,7 @@ footer {
 
 	.line__red, .line__blue {
 		margin-top: 26vw;
+		height: 2px;
 	}
 
 	.second__menu__item {

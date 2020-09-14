@@ -83,15 +83,15 @@ nav {
 
 /*image*/
 
-.header__img {
-	background: center / cover no-repeat;
+.background__image {
+	background: no-repeat;
 	width: 95%;
 }
 
 
 /*menu*/
 
-#first__line {
+.first__line {
 	margin-top: 10vw;
 }
 
@@ -207,48 +207,65 @@ footer {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
+	
+	.first__line {
+		margin: 0;
+	}
 
 	.nav__logo {
-		width: 12vw;
+		width: 8vw;
 	}
 
 	.header__frontend {
-		font-size: 13px;
-		margin-left: 17vw;
+		font-size: 4vw;
+		margin-left: 15vw;
 		margin-top: 12vw;
 	}
 
 	.header__graphic {
-		font-size: 28px;
-		margin-left: 17vw;
+		font-size: 7vw;
+		margin-left: 15vw;
 		margin-top: 0;
 	}
 
+	.background__image {
+		margin-top: 14vw;
+		background-size: 60%;
+	}
+
 	.name__line {
-		margin-top: 28vw;
+		margin-top: 55vw;
 		margin-left: 9%;
 		width: 0.6vw;
 	}
 
 	.header__name {
-		margin-top: 27vw;
+		margin-top: 55vw;
 		margin-left: 14%;
 		font-size: 5vw;
 	}
 
+	.line__red, .line__blue {
+		margin-top: 26vw;
+	}
+
 	.second__menu__item {
-		margin-left: 60vw;
-		width: 70px;
-		margin-top: -6%;
+		margin-left: 47vw;
+		width: 120px;
+		margin-top: -10%;
 	}
 
 	.first__menu__item, .third__menu__item, .fourth__menu__item {
-		width: 70px;
-		margin-top: -6%;
+		width: 120px;
+		margin-top: -10%;
 	}
 
 	.fourth__menu__item {
 		margin-left: 50vw;
+	}
+
+	footer {
+		margin-top: 40vw;
 	}
 }

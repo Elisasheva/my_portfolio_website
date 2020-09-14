@@ -266,6 +266,11 @@ footer {
 		margin-left: 50vw;
 	}
 
+	.footer__image {
+		width: 8%;
+		margin: 5%;
+	}
+
 	footer {
 		margin-top: 40vw;
 	}

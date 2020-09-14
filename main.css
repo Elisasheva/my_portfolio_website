@@ -198,6 +198,10 @@ footer {
 	margin: 0.7%;
 }
 
+.background__image__mobile {
+	display: none;
+}
+
 
 @media (max-width: 900px) {
 
@@ -236,19 +240,26 @@ footer {
 	}
 
 	.background__image {
-		margin-top: 50vw;
+		display: none;
+	}
+
+	.background__image__mobile {
+		display: block;
+		background: no-repeat;
+		width: 100%;
+		margin-top: 20vw;
 	}
 
 	.name__line {
-		margin-top: 90vw;
-		margin-left: 9%;
-		width: 0.6vw;
+		margin-top: 60vw;
+		margin-left: 13%;
+		width: 0.9vw;
 	}
 
 	.header__name {
-		margin-top: 90vw;
-		margin-left: 14%;
-		font-size: 5vw;
+		margin-top: 60vw;
+		margin-left: 19%;
+		font-size: 7vw;
 	}
 
 	.line__red, .line__blue {
@@ -268,7 +279,7 @@ footer {
 	}
 
 	.fourth__menu__item {
-		margin-left: 50vw;
+		margin-left: 23vw;
 	}
 
 	.footer__image {

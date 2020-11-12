@@ -21,6 +21,7 @@ body {
 nav {
 	padding: 30px;
 	margin-bottom: -5vw;
+	margin-top: 3vw;
 }
 
 .nav__logo {
@@ -230,7 +231,7 @@ text-stroke: 2px  #db7a86;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height:70px;
-	margin-top:15vw;
+	margin-top:25vw;
 }
 
 .second-line {

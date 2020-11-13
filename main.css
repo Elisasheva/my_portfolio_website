@@ -5,15 +5,30 @@
 	margin:0;
 }
 
-body {
-	background-image: url("pictures/tlo.jpg");
-	background-size: 100%;
-	background-position: 0 -240px; 
-}
-
 @font-face {
 	font-family: Nicomedia;
 	src: url(pictures/nicomediaital.woff);
+  }
+
+@font-face {
+	font-family: Helvetica Neue Ultra Light;
+	src: url(pictures/HelveticaNeueCyr-UltraLight.woff);
+}
+
+  body {
+	  animation: transitionIn 0.8s;
+  }
+
+  @keyframes transitionIn {
+	  from {
+		  opacity: 0;
+		  transform: translateY(-10px);
+	  }
+
+	  to {
+		  opacity: 1;
+		  transform: translateY(0);
+	  }
   }
 
 /*nav*/
@@ -67,7 +82,11 @@ nav {
 	font-size: 7vw;
 	font-family: 'Nicomedia';
 	font-weight: 300;
-	color: #64b6ac;
+	background-image: url("pictures/zielony.jpg");
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
 	padding: 1% 3% 1% 3%;
 	z-index:1;
 	-webkit-animation-name: out;
@@ -85,12 +104,16 @@ nav {
 	background-size: 100%;
 	padding: 2% 5% 2% 5%;
 	font-weight: 300;
-	color: #db7a86;
 	z-index:1;
 	-webkit-animation-name: in;
 	animation-name: in;
 	-webkit-animation-duration: 3s;
 	animation-duration:  3s;
+	background-image: url("pictures/rozowy.jpg");
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 .header__graphic__shadow {
@@ -118,8 +141,8 @@ nav {
 @supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
     .header__graphic__shadow {
         color: transparent;
-        -webkit-text-stroke: 2px  #db7a86;
-text-stroke: 2px  #db7a86;
+		-webkit-text-stroke: 2px  #db7a86;
+		text-stroke: 2px  #db7a86;
         text-shadow: none;
     }
 }
@@ -130,8 +153,13 @@ text-stroke: 2px  #db7a86;
 	margin-top: -11vw;
 	font-size: 6vw;
 	font-family: 'Nicomedia';
+	font-weight: 300;
 	padding: 2%;
-	color: #db7a86;
+	background-image: url("pictures/rozowy.jpg");
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
 	z-index:1;
 	-webkit-animation-name: out;
 	animation-name: out;
@@ -158,7 +186,7 @@ text-stroke: 2px  #db7a86;
    -1px -1px 0 #db7a86,  
 1px -1px 0 #db7a86,
 -1px 1px 0 #db7a86,
- 1px 1px 0 #db7a86
+1px 1px 0 #db7a86
 }
 
 @supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
@@ -232,6 +260,7 @@ text-stroke: 2px  #db7a86;
 	background-size: 100%;
 	height:70px;
 	margin-top:25vw;
+	opacity: .2;
 }
 
 .second-line {
@@ -240,6 +269,7 @@ text-stroke: 2px  #db7a86;
 	background-size: 100%;
 	height:70px;
 	margin-top:4vw;
+	opacity: .2;
 }
 
 .third-line {
@@ -248,6 +278,7 @@ text-stroke: 2px  #db7a86;
 	background-size: 100%;
 	height:70px;
 	margin-top:4vw;
+	opacity: .2;
 }
 
 .fourth-line {
@@ -256,6 +287,7 @@ text-stroke: 2px  #db7a86;
 	background-size: 100%;
 	height:70px;
 	margin-top:4vw;
+	opacity: .2;
 }
 
 .menu__item {
@@ -291,7 +323,7 @@ text-stroke: 2px  #db7a86;
 .fourth__menu__item {
 	position: absolute;
 	margin-left: 50vw;
-	margin-top: -11%;
+	margin-top: -10%;
 	width: 13%;
 
 }
@@ -362,9 +394,127 @@ text-stroke: 2px  #db7a86;
 	}
 }
 
+.web__design__header__container {
+	margin: 10vw 0 0 10vw;
+}
+
+.web__design__header {
+	margin-top: -2vw;
+	font-size: 4vw;
+	font-family: 'Nicomedia';
+	background-size: 100%;
+	padding: 2% 1% 2% 1%;
+	font-weight: 300;
+	z-index:1;
+	-webkit-animation-name: in;
+	animation-name: in;
+	-webkit-animation-duration: 3s;
+	animation-duration:  3s;
+	background-image: url("pictures/rozowy.jpg");
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.web__design__main__container {
+	display: flex;
+	justify-content: center;
+	margin: 10vw;
+}
+
+.web__design__project__image__container {
+	width: 290px;
+	height: 270px;
+	margin-right: 15vw;
+	box-shadow:  0 0 1em #db7a86;
+	background-image: url(pictures/dsdi.png);
+}
+
+.web__design__first__project__container {
+	width: 30vw;
+}
+
+.web__design__project__header {
+	font-size: 2vw;
+	padding-bottom: 1.3vw;
+	font-family: 'Helvetica Neue Condensed Black';
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #db7a86;
+	font-weight: 200;
+}
+
+.description {
+	font-size: 1.3vw;
+	font-family: 'Roboto';
+	font-weight: 100;
+	color: #db7a86;
+	line-height: 140%;
+}
+
+.button {
+	margin-top: 1.7vw;
+	padding: 5px 12px;
+	height: 60px;
+	width: 150px;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 1px solid #db7a86;
+	box-shadow: 0 0 1em #db7a86;
+	font-size: 16px;
+	border-radius: 10px;
+	color: #db7a86;
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+	cursor: pointer;
+}
+
+.button:hover {
+	animation: rotate 0.7s ease-in-out both;
+	box-shadow: 0 0 2em #f85367;
+}
+
+@keyframes rotate {
+	0% {
+	  transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+	25% {
+	  transform: rotate(3deg) translate3d(0, 0, 0);
+	}
+	50% {
+	  transform: rotate(-3deg) translate3d(0, 0, 0);
+	}
+	75% {
+	  transform: rotate(1deg) translate3d(0, 0, 0);
+	}
+	100% {
+	  transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+  }
+  @keyframes storm {
+	0% {
+	  transform: translate3d(0, 0, 0) translateZ(0);
+	}
+	25% {
+	  transform: translate3d(4px, 0, 0) translateZ(0);
+	}
+	50% {
+	  transform: translate3d(-3px, 0, 0) translateZ(0);
+	}
+	75% {
+	  transform: translate3d(2px, 0, 0) translateZ(0);
+	}
+	100% {
+	  transform: translate3d(0, 0, 0) translateZ(0);
+	}
+  }
+
 footer {
 	color: #6c9094;
-	font-family: 'Goldman';
+	font-family: 'Roboto';
 	font-size: 110%;
 	font-weight: 100;
 	text-align: center;
@@ -375,6 +525,51 @@ footer {
 	width:2.5%;
 	margin: 0.7%;
 }
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #242f3f;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .loader {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	border: 4px solid #Fff;
+	animation: loader 2s infinite ease;
+  }
+
+  .loader-inner {
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	animation: loader-inner 2s infinite ease-in;
+  }
+
+  @keyframes loader {
+	0% { transform: rotate(0deg);}
+	25% { transform: rotate(180deg);}
+	50% { transform: rotate(180deg);}
+	75% { transform: rotate(360deg);}
+	100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+	0% { height: 0%;}
+	25% { height: 0%;}
+	50% { height: 100%;}
+	75% { height: 100%;}
+	100% { height: 0%;}
+  }
 
 .background__image__mobile {
 	display: none;
@@ -491,3 +686,4 @@ footer {
 		margin-top: 40vw;
 	}
 }
+

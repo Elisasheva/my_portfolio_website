@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" href="pictures/icon.png">
+	<link rel="icon" href="pictures/iconn.png">
 
 	<title>Portfolio | Kamila Brymora | design, grafika, projektowanie</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -17,6 +17,20 @@
 		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+
+	<style>
+		body {
+			background-image: url("pictures/tlo.jpg");
+			background-size: 100%;
+			background-position: 0 -240px;
+			background-repeat: no-repeat;
+			background-color: aliceblue;
+		}
+	</style>
+
+
+
 <body>
 
 	<nav>
@@ -36,7 +50,11 @@
 	</div>
 	</div>
 	<div class="text__line__border">
-		<h3 class="text__line">web design illustration front-end dev product design app design ui html css javascript web design illustration front-end dev product design app design ui html css javascript web design illustration front-end dev product design app design ui html css javascript web design illustration front-end dev product design app design ui html css javascript web design illustration front-end dev product design app design ui html css javascript</h3>
+		<h3 class="text__line">web design illustration front-end dev product design app design ui html css javascript
+			web design illustration front-end dev product design app design ui html css javascript web design
+			illustration front-end dev product design app design ui html css javascript web design illustration
+			front-end dev product design app design ui html css javascript web design illustration front-end dev product
+			design app design ui html css javascript</h3>
 	</div>
 
 
@@ -53,19 +71,41 @@
 		</a>
 
 		<div class="second-line"></div>
-		<a href="books.html">
+		<a href="brands.html">
 			<img src="pictures/brands-planet.png" class="menu__item second__menu__item">
 		</a>
 
 		<div class="third-line"></div>
-		<a href="brands.html">
+		<a href="illu.html">
 			<img src="pictures/ilustracje-planet.png" class="menu__item third__menu__item">
 		</a>
 
 		<div class="fourth-line"></div>
-		<a href="brands.html"></a>
-		<img src="pictures/inne-planet.png" class="menu__item fourth__menu__item">
+		<a href="books.html">
+			<img src="pictures/inne-planet.png" class="menu__item fourth__menu__item">
 		</a>
+	</div>
+
+	<div class="web__design__header__container">
+		<img src="pictures/light.png">
+		<h3 class="web__design__header">web design</h3>
+	</div>
+
+	<div class="web__design__main__container">
+		<div class="web__design__project__image__container">
+		</div>
+
+		<div class="web__design__first__project__container">
+			<h4 class="web__design__project__header">Projekt strony dla DSDi</h4>
+			<span class="description">Strona stworzona w celu zaprezentowania oferty firmy Eltcrac System związanej z
+				ich autorskim projektem DSDi. </span>
+				
+			<div>
+				<button class="button">
+					<span>Sprawdź</span>
+				</button>
+			</div>
+		</div>
 	</div>
 
 
@@ -75,7 +115,22 @@
 		prawa zastrzeżone.
 	</footer>
 
+
+	<div class="loader-wrapper">
+		<span class="loader"><span class="loader-inner"></span></span>
+	</div>
+
+	<script>
+		let loaderWrapper = document.querySelector('.loader-wrapper');
+
+		window.addEventListener('load', function () {
+			loaderWrapper.style.display = 'none';
+		});
+	</script>
+
 </body>
+
+
 
 
 

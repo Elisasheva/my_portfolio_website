@@ -46,6 +46,24 @@ nav {
 
 /*header*/
 
+.header__portfolio__container {
+  height: 4px;
+  margin-top: 9vw;
+  position: relative;
+}
+
+.header__graphic__container {
+  height: 4px;
+  margin-top: 8vw;
+  position: relative;
+}
+
+.header__frontend__container {
+  height: 3vw;
+  margin-top: 15vw;
+  position: relative;
+}
+
 .header__portfolio {
   position: absolute;
   margin-left: 9vw;
@@ -98,6 +116,37 @@ nav {
   animation-iteration-count: 1;
 }
 
+.header__frontend {
+  position: absolute;
+  margin-left: 4vw;
+  margin-top: -11vw;
+  font-size: 6vw;
+  font-family: "Nicomedia";
+  font-weight: 300;
+  padding: 2%;
+  background-image: url("pictures/rozowy.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  z-index: 1;
+  -webkit-animation-name: out;
+  animation-name: out;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+}
+
+.header__frontend:hover {
+  -webkit-animation-name: in;
+  animation-name: in;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 @supports ((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
   .header__graphic__shadow {
     position: absolute;
@@ -118,26 +167,6 @@ nav {
     -webkit-text-stroke: 2px #db7a86;
     text-stroke: 2px #db7a86;
     text-shadow: none;
-  }
-
-  .header__frontend {
-    position: absolute;
-    margin-left: 4vw;
-    margin-top: -11vw;
-    font-size: 6vw;
-    font-family: "Nicomedia";
-    font-weight: 300;
-    padding: 2%;
-    background-image: url("pictures/rozowy.jpg");
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    z-index: 1;
-    -webkit-animation-name: out;
-    animation-name: out;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
   }
 
   .header__frontend__shadow {
@@ -162,17 +191,6 @@ nav {
   }
 }
 
-.header__frontend:hover {
-  -webkit-animation-name: in;
-  animation-name: in;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
 .text__line {
   margin-left: 0;
   margin-right: 0;
@@ -186,7 +204,6 @@ nav {
 }
 
 .text__line__container {
-  margin-top: 4vw;
   border-top: #db7a86 solid 1px;
   border-bottom: #db7a86 solid 1px;
   padding: 0.3%;
@@ -201,30 +218,7 @@ nav {
     transform: translateX(-100%);
   }
 }
-
-.first__position {
-  height: 4px;
-  margin-top: 11%;
-  position: relative;
-}
-
-.second__position {
-  height: 4px;
-  margin-top: 8%;
-  position: relative;
-}
-
-.third__position {
-  height: 12vw;
-  margin-top: 2%;
-  position: relative;
-}
-
-.fourth__position {
-  height: 4px;
-  margin-top: 8%;
-  position: relative;
-}
+/*stars*/
 
 .star {
   margin: 7vw 0 0 75vw;
@@ -236,23 +230,6 @@ nav {
   height: 2px;
   width: 2px;
   background-color: ivory;
-}
-
-@keyframes fade {
-  from {
-    height: 0;
-    width: 0;
-  }
-
-  75% {
-    height: 1px;
-    width: 1px;
-  }
-
-  to {
-    height: 0;
-    width: 0;
-  }
 }
 
 .star2 {
@@ -313,6 +290,23 @@ nav {
   height: 1px;
   width: 1px;
   background-color: ivory;
+}
+
+@keyframes fade {
+  from {
+    height: 0;
+    width: 0;
+  }
+
+  75% {
+    height: 1px;
+    width: 1px;
+  }
+
+  to {
+    height: 0;
+    width: 0;
+  }
 }
 
 @keyframes fade2 {
@@ -479,6 +473,8 @@ nav {
     transform: translateX(0px);
   }
 }
+
+/*portfolio*/
 
 .portfolio__header__container {
   margin: 20vw 0 0 10vw;

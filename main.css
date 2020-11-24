@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+@import url(//db.onlinewebfonts.com/c/001aa03bd87908b52690a04ea52ca410?family=Romana+BT);
+
 @font-face {
   font-family: Nicomedia;
   src: url(pictures/nicomediaital.woff);
@@ -496,11 +498,9 @@ nav {
 .portfolio__header__description {
   color: #db7a86;
   font-size: 1vw;
-  font-family: "Classic Roman Std";
-  background-size: 100%;
-  font-weight: 200;
+  font-family: "Playfair Display";
+  font-style: italic;
   letter-spacing: 6px;
-  text-transform: uppercase;
 }
 
 .web__design__item__container {
@@ -513,7 +513,6 @@ nav {
   font-size: 13vw;
   margin-bottom: 3vw;
   font-family: "Nicomedia";
-  background-size: 100%;
   font-weight: 200;
   z-index: 1;
   color: #db7a86;
@@ -567,9 +566,8 @@ nav {
 
 footer {
   color: #6c9094;
-  font-family: "Classic Roman Std";
+  font-family: "Romana BT";
   font-size: 110%;
-  font-weight: 100;
   text-align: center;
   margin: 12vw auto 4vw auto;
 }

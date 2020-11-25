@@ -12,6 +12,11 @@
   src: url(pictures/nicomediaital.woff);
 }
 
+@font-face {
+  font-family: Classic Roman Std;
+  src: url(//db.onlinewebfonts.com/c/d586348bdc9c4b618fff8ad88938a511?family=Classic+Roman+Std) format("woff") ;
+}
+
 body {
   animation: transitionIn 0.8s;
 }

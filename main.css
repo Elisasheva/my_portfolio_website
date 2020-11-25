@@ -21,6 +21,10 @@ body {
   animation: transitionIn 0.8s;
 }
 
+body, html {
+  cursor: none;
+}
+
 @keyframes transitionIn {
   from {
     opacity: 0;
@@ -384,6 +388,7 @@ nav {
   animation-name: out;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
+  cursor: none;
 }
 
 .first__menu__item {
@@ -581,4 +586,18 @@ footer {
 .footer__image {
   width: 2.5%;
   margin: 0.7%;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  mix-blend-mode: exclusion;
+  transition: transform 0.3s ease;
+}
+
+.web__design__item:hover ~ .cursor {
+  transform: translate(-50%, -50%) scale(8);
 }
